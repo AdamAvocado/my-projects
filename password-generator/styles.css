@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(168, 216, 234);
+    color: rgb(139, 110, 208);
+    font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    margin: 10px 0 20px;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(255, 255, 210);
+    padding: 20px;
+    width: 350px;
+    max-width: 100%;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+    /* Containers */
+
+.result-container {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    height: 50px;
+    width: 100%;
+}
+
+.result {
+    word-wrap: break-word;
+    max-width: calc(100% - 40px);
+}
+
+.setting {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+    /* Buttons */
+
+.result-container .button {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    font-size: 20px;
+}
+
+.button {
+    border: none;
+    background-color: rgb(168, 216, 234);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.button-large {
+    display: block;
+    width: 100%;
+}
+
+
+
